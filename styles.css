@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    margin-bottom: -6px;
+    
+  }
+
+.iconeredes {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: absolute;
+    margin-left: 166px;
+    margin-top: 32px;
+    left: 0px;
+}
+
+.iconeredes li {
+    margin-right: 25px;
+}
+
+.botoes-login-criarconta {
+    position: absolute;
+    margin-right: 166px;
+    margin-top: 32px;
+    right: 0px;
+
+}
+
+/* Estilo dos botões */
+.botao-login,
+.botao-criarconta {
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #FFBC0D;
+    color: #DB0007;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.botao-login:hover,
+.botao-criarconta:hover {
+    background-color: #fff;
+    color: #DB0007;
+}
+
+
+
+
+
+  
+  nav {
+    background-color: #DB0007;
+    padding: 22px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  nav li {
+    margin-left: 31px;
+    margin-right: 31px;
+    padding-top: 53px;
+  }
+
+  nav a {
+    color: #FFBC0D;
+    text-decoration: none ;
+  }
+
+  nav a:hover {
+      color: white;
+  }
+
+
+.banner img {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.banner2 {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.banner2-button2 {
+  left: 1024px;
+  top: 2050px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  cursor: pointer;
+  height: auto;
+  width: 143px;
+}
+
+
+
+  
+.copy {
+    background-color: #980005;
+    color: #FFBC0D;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+
+  }
+  
+  .logomc {
+    width: auto;
+    height: 65px;
+    padding-top: 9px;
+    padding-bottom: -41px;
+  }
+
+  .oferta-do-dia {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+.oferta-do-dia h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilo para a seção oferta-images */
+.oferta-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Adicione um espaçamento interno para o box */
+}
+
+/* Estilo para as imagens dentro da oferta-images */
+.oferta-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.bk {
+    width: 183px;
+    height: auto;
+}
+
+
+h2 {
+  color: #DB0007;
+}
+
+
+.container {
+  position: relative;
+  margin-top: -28px;
+}
+
+.red-line-left, .red-line-right {
+  position: absolute;
+  top: 9px;
+  height: 4px;
+  width: 455px;
+  background-color: #FFBC0D;
+  border-radius: 15px;
+}
+
+.red-line-left {
+  left: 20px;
+}
+
+.red-line-right {
+  right: 20px;
+}
+
+
+.preco {
+  position:relative;
+  top: -56px;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #DB0007;
+}
+
+
+.descricao h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+} 
+
+.descricao {
+  margin-top: -47px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.comprar{
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #DB0007;
+  color: #FFBC0D;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.comprar:hover {
+  background-color: #FFBC0D;
+  color: #DB0007;
+}
+
+.linha {
+  position: absolute;
+  margin-top: -6px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  width: 1270px;
+  background-color: #E1E1E1;
+  border-radius: 20px;
+}
+  
+
+.footerconteudo ol {
+  margin-top: -23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  list-style: none;
+  padding-bottom: 0px;
+}
+
+.footerconteudo {
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.coluna1 {
+  display: block;
+  padding-bottom: 0px;
+}
